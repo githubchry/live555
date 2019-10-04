@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicUsageEnvironment", "Ba
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediaServer", "mediaServer\mediaServer.vcxproj", "{BE2A7C1C-C51F-4A74-A619-3768ADC4A694}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediaClient", "mediaClient\mediaClient.vcxproj", "{3B9CE07B-6630-4228-A37F-4968318880EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{BE2A7C1C-C51F-4A74-A619-3768ADC4A694}.Release|x64.Build.0 = Release|x64
 		{BE2A7C1C-C51F-4A74-A619-3768ADC4A694}.Release|x86.ActiveCfg = Release|Win32
 		{BE2A7C1C-C51F-4A74-A619-3768ADC4A694}.Release|x86.Build.0 = Release|Win32
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Debug|x64.ActiveCfg = Debug|x64
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Debug|x64.Build.0 = Debug|x64
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Debug|x86.Build.0 = Debug|Win32
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Release|x64.ActiveCfg = Release|x64
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Release|x64.Build.0 = Release|x64
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Release|x86.ActiveCfg = Release|Win32
+		{3B9CE07B-6630-4228-A37F-4968318880EF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
