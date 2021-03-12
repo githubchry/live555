@@ -14,7 +14,7 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 **********/
 // "liveMedia"
-// Copyright (c) 1996-2019 Live Networks, Inc.  All rights reserved.
+// Copyright (c) 1996-2020 Live Networks, Inc.  All rights reserved.
 // H.264 or H.265 Video File sinks
 // Implementation
 
@@ -37,7 +37,7 @@ H264or5VideoFileSink
 }
 
 H264or5VideoFileSink::~H264or5VideoFileSink() {
-  for (unsigned j = 0; j < 3; ++j) delete[] fSPropParameterSetsStr[j];
+  for (unsigned j = 0; j < 3; ++j) delete[] (char*)fSPropParameterSetsStr[j];
 }
 
 void H264or5VideoFileSink::afterGettingFrame(unsigned frameSize, unsigned numTruncatedBytes, struct timeval presentationTime) {

@@ -14,12 +14,13 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 **********/
 // "liveMedia"
-// Copyright (c) 1996-2019 Live Networks, Inc.  All rights reserved.
+// Copyright (c) 1996-2020 Live Networks, Inc.  All rights reserved.
 // A parser for a MPEG Transport Stream
 // Implementation
 
 #include "MPEG2TransportStreamParser.hh"
 #include "FileSink.hh"
+#include <time.h> // for time_t
 
 Boolean MPEG2TransportStreamParser
 ::processStreamPacket(PIDState_STREAM* pidState, Boolean pusi, unsigned numDataBytes) {

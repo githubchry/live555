@@ -13,21 +13,13 @@ You should have received a copy of the GNU Lesser General Public License
 along with this library; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 **********/
-// Copyright (c) 1996-2019, Live Networks, Inc.  All rights reserved
+// Copyright (c) 1996-2020, Live Networks, Inc.  All rights reserved
 // LIVE555 Media Server
 // main program
 
 #include <BasicUsageEnvironment.hh>
 #include "DynamicRTSPServer.hh"
 #include "version.hh"
-
-
-#pragma comment(lib, "BasicUsageEnvironment.lib")
-#pragma comment(lib, "groupsock.lib")
-#pragma comment(lib, "liveMedia.lib")
-#pragma comment(lib, "UsageEnvironment.lib")
-#pragma comment(lib, "Ws2_32.lib")
-
 
 int main(int argc, char** argv) {
   // Begin by setting up our usage environment:
